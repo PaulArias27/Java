@@ -22,5 +22,14 @@ public class Calculadora {
     	resultado = dividendo / divisor;
     	return resultado;
     }
-    
+    public double promedio(double valor1,double valor2,double valor3) {
+    	double resultado1;
+    	double resultado2;
+    	resultado1 = valor1 + valor2 + valor3;
+    	resultado2 = resultado1 / 3;
+    	return resultado2;
+    }
+    public void mostrarResultado() {
+    	System.out.println("Ahora no joven, sali al almuerzo. Regreso en 15 minutos ");
+    }
 }
