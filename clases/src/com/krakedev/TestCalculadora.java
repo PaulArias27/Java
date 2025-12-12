@@ -6,13 +6,19 @@ public class TestCalculadora {
 		Calculadora calcu;
 		int resultadoSuma;
 		int resultadoResta;
+		double resultadoMulti;
+		double resultadoDivi;
 		
 		calcu = new Calculadora();
 		resultadoSuma = calcu.sumar(5, 3);
 		resultadoResta = calcu.restar(10, 3);
+		resultadoMulti = calcu.multiplicar(10, 5);
+		resultadoDivi = calcu.dividir(10, 2);
 		
 		System.out.println("RESULTADO SUMA: "+ resultadoSuma);
 		System.out.println("RESULTADO RESTA: "+ resultadoResta);
+		System.out.println("RESULTADO MULTIPLICACION: "+ resultadoMulti);
+		System.out.println("RESULTADO DIVISION: "+ resultadoDivi);
 	}
 
 }
