@@ -8,26 +8,26 @@ public class TestPersona {
 		p = new Personas();
 		Personas p2 = new Personas();
 		
-        System.out.println("nombre: " + p.nombre);
-        System.out.println("edad: " + p.edad);
-        System.out.println("estatura: " + p.estatura);
+        System.out.println("nombre: " + p.getNombre());
+        System.out.println("edad: " + p.getEdad());
+        System.out.println("estatura: " + p.getEstatura());
         
         //modificar los atributos
-        p.nombre = "Paul";
-        p.edad = 26;
-        p.estatura = 1.70;
+        p.setNombre("Paul");
+        p.setEdad(26);
+        p.setEstatura(1.70);
         
         System.out.println("---------------------------");
         
-        System.out.println("nombre: " + p.nombre);
-        System.out.println("edad: " + p.edad);
-        System.out.println("estatura: " + p.estatura);
+        System.out.println("nombre: " + p.getNombre());
+        System.out.println("edad: " + p.getEdad());
+        System.out.println("estatura: " + p.getEstatura());
         
-        p2.nombre = "Valeria";
+        p2.setNombre("Valeria");
         
         System.out.println("***************");
-        System.out.println("p.nombre: " + p.nombre);
-        System.out.println("p2.nombre: "+ p2.nombre);
+        System.out.println("p.nombre: " + p.getNombre());
+        System.out.println("p2.nombre: "+ p2.getNombre());
 	}
 
 }

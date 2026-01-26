@@ -1,10 +1,30 @@
 package com.krakedev;
 
 public class Mensajeria {
+	private String resulatdoSaludar;
+	private String resultadoSaludarAmigo;
+	
+	
+	
+	public String getResulatdoSaludar() {
+		return resulatdoSaludar;
+	}
+	public void setResulatdoSaludar(String resulatdoSaludar) {
+		this.resulatdoSaludar = resulatdoSaludar;
+	}
+	public String getResultadoSaludarAmigo() {
+		return resultadoSaludarAmigo;
+	}
+	public void setResultadoSaludarAmigo(String resultadoSaludarAmigo) {
+		this.resultadoSaludarAmigo = resultadoSaludarAmigo;
+	}
 	public void saludar() {
-		System.out.println("hola humano");
+		this.resulatdoSaludar = "hola humano";
 	}
     public void saludarAmigo(String nombre,String apellido) {
-    	System.out.println("hola " + nombre +" " + apellido);
+    	this.resultadoSaludarAmigo = "hola " + nombre +" " + apellido;
     }
+    
+    
 }
+

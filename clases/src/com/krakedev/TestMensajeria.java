@@ -7,6 +7,9 @@ public class TestMensajeria {
 		m = new Mensajeria();
 		m.saludar();
 		m.saludarAmigo("Paul", "Arias");
+		
+		System.out.println(m.getResulatdoSaludar());
+		System.out.println(m.getResultadoSaludarAmigo());
 
 	}
 
