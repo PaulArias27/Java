@@ -5,6 +5,10 @@ public class Mensajeria {
 	private String resultadoSaludarAmigo;
 	
 	
+	public Mensajeria(String saludar) {
+		this.resulatdoSaludar = saludar;
+	}
+	
 	
 	public String getResulatdoSaludar() {
 		return resulatdoSaludar;

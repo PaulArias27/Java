@@ -7,6 +7,12 @@ public class TestPersona {
 		Personas p;
 		p = new Personas();
 		Personas p2 = new Personas();
+		Personas p3 = new Personas("Pablo");
+		Personas p4 = new Personas("Rocio",43,1.60);
+		
+		System.out.println("nombre: " + p4.getNombre());
+        System.out.println("edad: " + p4.getEdad());
+        System.out.println("estatura: " + p4.getEstatura());
 		
         System.out.println("nombre: " + p.getNombre());
         System.out.println("edad: " + p.getEdad());

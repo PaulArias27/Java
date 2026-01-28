@@ -4,6 +4,14 @@ public class Auto {
 	private String marca;
 	private int año;
 	private double precio;
+	
+	public Auto(String marca,int ano, double precio) {
+		this.marca = marca;
+		this.año = ano;
+		this.precio = precio;
+	}
+	
+	
 	public String getMarca() {
 		return marca;
 	}
